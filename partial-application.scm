@@ -3,7 +3,6 @@
 (module partial-application
     (part-eval part-apply part-map)
   (import scheme)
-  (import (chicken base))
 
   (define (part-eval proc . binds)
     (lambda rest
