@@ -1,0 +1,7 @@
+((synopsis "Partial procedure application in CHICKEN 5.")
+ (author "Robert Coffey")
+ (license "MIT")
+ (version "0.1.0")
+ (category lang-exts)
+ (components (extension partial-application
+                        (csc-options "-O3" "-d0"))))
